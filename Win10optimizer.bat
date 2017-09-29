@@ -671,7 +671,6 @@ DEL /f /s /q %systemdrive%\recycled\*.*
 DEL /f /s /q %systemdrive%\$Recycle.Bin\*.*
 DEL /f /s /q %windir%\*.bak
 DEL /f /s /q %windir%\prefetch\*.*
-rd /s /q %windir%\temp & md %windir%\temp
 DEL /f /q %userprofile%\cookies\*.*
 DEL /f /q %userprofile%\recent\*.*
 DEL /f /s /q "%userprofile%\Local Settings\Temporary Internet Files\*.*"
